@@ -1,0 +1,23 @@
+SELECT * FROM saujanya.movie;
+
+select count(length) from movie where length>18;
+
+select MIN(lenght) from movie ;
+
+select moviename from movie where  movietype like"drama%";
+
+select MIN(Length) from movie;
+select * from movie where language like "t%";
+
+
+select moviename,heroname , heroine ,max(length) from movie;
+select moviename,heroname,heroine from movie where ReleasedDate > '2018-03-15' ;
+
+
+select count(movieType) from movie where movieType="crime"; 
+
+
+select ReleasedDate from movie where moviename="zero";
+
+
+select heroname from movie where heroine ="Amy"; 
